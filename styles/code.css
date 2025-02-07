@@ -1,0 +1,15 @@
+/* Стили для кода */
+.slidev-layout code {
+  @apply text-sm px-1 py-0.5 rounded;
+  background: var(--prism-background);
+}
+
+.slidev-layout pre code {
+  @apply px-0 py-0;
+  background: transparent;
+}
+
+.slidev-layout pre {
+  @apply p-4 rounded-lg mb-4;
+  background: var(--prism-background);
+}

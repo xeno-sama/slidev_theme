@@ -1,0 +1,35 @@
+{
+  "name": "slidev-theme-custom",
+  "version": "0.0.1",
+  "description": "My Custom Slidev Theme",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "slidev": ">=0.19.3"
+  },
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/types": "^0.40.3",
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.4"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.40.3"
+  },
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Roboto",
+        "mono": "Fira Code"
+      }
+    }
+  }
+}
