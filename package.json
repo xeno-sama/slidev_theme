@@ -15,12 +15,12 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/types": "^0.40.3",
+    "@slidev/types": "^51.1.0",
     "codemirror-theme-vars": "^0.1.1",
     "prism-theme-vars": "^0.2.4"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.40.3"
+    "@slidev/cli": "^51.1.0"
   },
   "slidev": {
     "colorSchema": "both",
