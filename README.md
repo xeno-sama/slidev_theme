@@ -38,7 +38,7 @@ npm init slidev@latest
     "vue": "^3.5.13"
   },
   "devDependencies": {
-    "slidev-theme-alex": "github:xeno-sama/slidev_theme"
+    "slidev-theme-alex": "https://github.com/xeno-sama/slidev_theme.git"
   }
 }
 ```

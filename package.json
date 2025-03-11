@@ -1,19 +1,13 @@
 {
-  "name": "alex_theme",
+  "name": "slidev-theme-alex",
   "version": "0.0.2",
-  "description": "Alex Theme",
+  "description": "Alex Slidev Theme",
   "keywords": [
     "slidev-theme",
     "slidev"
   ],
   "engines": {
     "slidev": ">=0.19.3"
-  },
-  "scripts": {
-    "build": "slidev build",
-    "dev": "slidev --open",
-    "export": "slidev export",
-    "docs": "slidev guide.md --open"
   },
   "peerDependencies": {
     "@slidev/cli": "^0.40.3",
