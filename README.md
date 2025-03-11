@@ -30,8 +30,8 @@ npm init slidev@latest
     "docs": "slidev docs/docs.md --open"
   },
   "dependencies": {
-    "@slidev/cli": "^51.0.0",
-    "@slidev/types": "^0.40.3",
+    "@slidev/cli": "^51.4.0",
+    "@slidev/types": "^51.4.0",
     "@vueuse/core": "^13.0.0",
     "codemirror-theme-vars": "^0.1.1",
     "prism-theme-vars": "^0.2.4",
