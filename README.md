@@ -45,7 +45,7 @@ npm init slidev@latest
 
 2) запустите в консоли
 ```bash
-cp -r alex_theme/docs/ docs
+cp -r node_modules/slidev-theme-alex/docs/ docs
 ```
 это скопирует документацию из кастомной темы в ваш проект в папку docs
 
