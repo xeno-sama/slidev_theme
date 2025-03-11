@@ -3,14 +3,16 @@
         left: x + 'px',
         top: y + 'px',
         width: width + 'px',
-        height: height + 'px'
+        height: height + 'px',
+        background: color || '#feff9c'
     }" @mousedown="startDrag">
         <div class="note-header">
-            <button @click.stop="$emit('delete')" class="delete-btn">×</button>
+            <button @click.stop="$emit('delete')" class="delete-btn" :style="{ color: textColor }">×</button>
         </div>
         <textarea v-model="content" @input="$emit('update', { id: id, content, x, y, width, height })"
-            placeholder="Введите заметку..."></textarea>
-        <div class="resize-handle" @mousedown.stop="startResize"></div>
+            placeholder="Введите заметку..." :style="{ color: textColor + ' !important' }"></textarea>
+        <div class="resize-handle" @mousedown.stop="startResize"
+            :style="{ background: `linear-gradient(135deg, transparent 50%, ${textColor} 50%)` }"></div>
     </div>
 </template>
 
@@ -75,7 +77,9 @@ export default {
         initialY: { type: Number, default: 100 },
         initialContent: { type: String, default: '' },
         initialWidth: { type: Number, default: 200 },
-        initialHeight: { type: Number, default: 150 }
+        initialHeight: { type: Number, default: 150 },
+        color: { type: String, default: '#feff9c' },
+        textColor: { type: String, default: '#000000' }
     },
     data() {
         return {
