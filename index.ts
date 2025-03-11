@@ -3,7 +3,7 @@ import './styles/index'
 import './styles/custom'
 
 export default {
-  name: 'custom-theme',
+  name: 'alex_theme',
   defaults: {
     fonts: {
       sans: 'Roboto',
@@ -15,13 +15,13 @@ export default {
     layout: 'default',
     aspectRatio: '16/9',
     canvasWidth: 980,
-    
+
     // Настройки переходов между слайдами
     transition: {
       name: 'fade',
       duration: 500
     },
-    
+
     // Настройки сетки
     layouts: {
       center: {

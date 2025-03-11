@@ -8,7 +8,7 @@
 ## Установка
 
 ```bash
-npm install slidev-theme-custom
+npm install alex_theme
 ```
 
 ## Использование
