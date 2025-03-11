@@ -1,0 +1,19 @@
+/* Base theme styles for text colors */
+:root {
+    --slidev-theme-text: #333333;
+}
+
+.dark:root {
+    --slidev-theme-text: #f8fafc;
+}
+
+.slidev-layout {
+    color: var(--slidev-theme-text) !important;
+}
+
+.slidev-layout blockquote,
+.slidev-layout p,
+.slidev-layout li,
+.slidev-layout table {
+    color: inherit !important;
+}
