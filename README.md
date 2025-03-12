@@ -38,14 +38,14 @@ npm init slidev@latest
     "vue": "^3.5.13"
   },
   "devDependencies": {
-    "slidev-theme-alex": "https://github.com/xeno-sama/slidev_theme.git"
+    "slidev-theme-custom": "https://github.com/xeno-sama/slidev_theme.git"
   }
 }
 ```
 
 2) запустите в консоли
 ```bash
-cp -r node_modules/slidev-theme-alex/docs/ docs
+cp -r node_modules/slidev-theme-custom/docs/ docs
 ```
 это скопирует документацию из кастомной темы в ваш проект в папку docs
 
@@ -53,7 +53,7 @@ cp -r node_modules/slidev-theme-alex/docs/ docs
 ```bash
 npm install 
 ```
-чтобы доустановить недостаюшие пакеты для кастомной темы 
+чтобы скачать тему из ГИТа
 
 # Документация
 просмотреть можно через команду
