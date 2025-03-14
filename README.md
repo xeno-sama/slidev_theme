@@ -24,10 +24,12 @@ npm init slidev@latest
   "private": true,
   "scripts": {
     "build": "slidev build",
+    "export": "slidev export",
     "dev": "slidev --open",
     "dev:chrome": "BROWSER='google chrome' slidev --open",
-    "export": "slidev export",
+    "intro": "BROWSER='google chrome' slidev docs/intro.md --open", 
     "docs": "slidev docs/docs.md --open"
+    "clean": "rm -rf node_modules/.vite && npm cache clean --force && rm -rf node_modules && rm -rf package-lock.json"
   },
   "dependencies": {
     "@slidev/cli": "^51.4.0",
@@ -55,8 +57,14 @@ npm install
 ```
 чтобы доустановить недостаюшие пакеты для кастомной темы 
 
-# Документация
+# Документация по кастомным компонентам
 просмотреть можно через команду
 ```bash
 npm run docs
+```
+
+# Офф. документация SliDev
+просмотреть можно через команду
+```bash
+npm run intro
 ```
