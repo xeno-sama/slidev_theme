@@ -23,10 +23,10 @@
     position="left_bottom"
 />
 <NavButtonFixed 
-    :slideNumber="9"
-    buttonText="Right"
+    :slideNumber="1"
+    buttonText="Content"
     buttonColor="bg-purple-500"
-    width="60px"
+    width="80px"
     height="30px"
     textSize="16px"
     arrowSize="10px"

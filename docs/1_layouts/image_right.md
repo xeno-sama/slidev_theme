@@ -38,15 +38,5 @@
     height="30px"
     textSize="16px"
     arrowSize="10px"
-    position="left_top"
-/>
-<NavButtonFixed 
-    :slideNumber="5"
-    buttonText="End"
-    buttonColor="bg-purple-500"
-    width="60px"
-    height="30px"
-    textSize="16px"
-    arrowSize="10px"
     position="right_top"
 />

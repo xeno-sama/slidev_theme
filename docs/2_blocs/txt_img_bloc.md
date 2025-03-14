@@ -16,7 +16,7 @@
 imageFit ["contain", "fitWidth", "fitHeight", "fitAll"]
 
 <NavButtonFixed 
-    :slideNumber="6"
+    :slideNumber="5"
     buttonText="Left"
     buttonColor="bg-purple-500"
     width="60px"
@@ -27,7 +27,7 @@ imageFit ["contain", "fitWidth", "fitHeight", "fitAll"]
 />
 
 <NavButtonFixed 
-    :slideNumber="8"
+    :slideNumber="7"
     buttonText="Right"
     buttonColor="bg-purple-500"
     width="60px"

@@ -18,3 +18,13 @@
     arrowSize="10px"
     position="left_bottom"
 />
+<NavButtonFixed 
+    :slideNumber="10"
+    buttonText="Right"
+    buttonColor="bg-purple-500"
+    width="60px"
+    height="30px"
+    textSize="16px"
+    arrowSize="10px"
+    position="right_bottom"
+/>

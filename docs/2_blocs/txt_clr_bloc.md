@@ -2,11 +2,11 @@
 
 Цветной Контейнер с градиентом без фоновой картинки
 
-<ColorContainer 
+<TxtColorBloc 
     gradient="bg-gradient-to-r from-red to-orange-500"
-    titleColor="text-black"
+    titleColor="text-blue"
     title="Заголовок"
-    contentColor="#358fff"
+    contentColor="#000000"
     content="Текст содержания"
     width="500px"
     height="300px"
@@ -24,7 +24,7 @@
 - from-black to-black" -->
 
 <NavButtonFixed 
-    :slideNumber="5"
+    :slideNumber="6"
     buttonText="Left"
     buttonColor="bg-purple-500"
     width="60px"
@@ -34,7 +34,7 @@
     position="left_bottom"
 />
 <NavButtonFixed 
-    :slideNumber="7"
+    :slideNumber="8"
     buttonText="Right"
     buttonColor="bg-purple-500"
     width="60px"
