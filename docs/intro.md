@@ -175,8 +175,6 @@ const author = {
 
 ---
 
-# Components
-
 <div grid="~ cols-2 gap-4">
 <div>
 

@@ -1,3 +1,15 @@
+---
+level: 2
+---
+
+<KeyboardNavigation 
+  :leftSlide="5"
+  :rightSlide="7"
+  :upSlide="2"
+  :downSlide="8"
+  :currentSlide="6"
+/>
+
 # Color Text Container 
 
 Цветной Контейнер с градиентом без фоновой картинки

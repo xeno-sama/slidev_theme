@@ -13,6 +13,14 @@
   imageFit="fitWidth"
 />
 
+<KeyboardNavigation
+  :leftSlide="5"
+  :rightSlide="6"
+  :upSlide="2"
+  :downSlide="8"
+  :currentSlide="5"
+/>
+
 imageFit ["contain", "fitWidth", "fitHeight", "fitAll"]
 
 <NavButtonFixed 

@@ -1,3 +1,15 @@
+---
+level: 2
+---
+
+<KeyboardNavigation 
+  :leftSlide="8"
+  :rightSlide="10"
+  :upSlide="5"
+  :downSlide="9"
+  :currentSlide="9"
+/>
+
 # Styles
 
 ## Цитаты и выделения

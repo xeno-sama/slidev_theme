@@ -1,6 +1,18 @@
+---
+level: 2
+---
+
 # Макет Image Cover
 #
 ## Картинка на заднем фоне - контент поверх нее
+
+<KeyboardNavigation 
+  :leftSlide="3"
+  :rightSlide="4"
+  :upSlide="2"
+  :downSlide="5"
+  :currentSlide="4"
+/>
 
 <NavButtonFixed 
     :slideNumber="3"

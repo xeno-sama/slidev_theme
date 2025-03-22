@@ -1,3 +1,15 @@
+---
+level: 2
+---
+
+<KeyboardNavigation 
+  :leftSlide="2"
+  :rightSlide="4"
+  :upSlide="1"
+  :downSlide="5"
+  :currentSlide="3"
+/>
+
 # Макет Image Right
 #
 параметры позиционирования картинки

@@ -2,6 +2,14 @@
 
 ### 1. Перемещаемая кнопка навигации
 
+<KeyboardNavigation 
+  :leftSlide="8"
+  :rightSlide="9"
+  :upSlide="5"
+  :downSlide="8"
+  :currentSlide="8"
+/>
+
 <NavButtonDrag 
     :slideNumber="3"
     buttonText="To Slide 3"
@@ -53,7 +61,7 @@
     height="30px"
     textSize="16px"
     arrowSize="10px"
-    position="left_bottom"
+    position="right_top"
 />
 <!-- <NavButtonFixed 
     :slideNumber="6"
@@ -82,5 +90,3 @@
     :initialX="200"
     :initialY="200"
 />
-
-

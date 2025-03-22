@@ -1,3 +1,15 @@
+---
+level: 2
+---
+
+<KeyboardNavigation 
+  :leftSlide="9"
+  :rightSlide="10"
+  :upSlide="5"
+  :downSlide="10"
+  :currentSlide="10"
+/>
+
 # Sticky Note
 
 Липкие заметки

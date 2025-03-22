@@ -1,3 +1,11 @@
+<KeyboardNavigation
+  :leftSlide="2"
+  :rightSlide="3"
+  :upSlide="1"
+  :downSlide="5"
+  :currentSlide="2"
+/>
+
 <style>
     .col-left {
         padding-right: 1em;
@@ -40,5 +48,6 @@
     position="right_bottom"
 />
 
-
-<!-- <StickyButton buttonColor="bg-yellow-200" textColor="text-black" /> -->
+<!--
+<StickyButton buttonColor="bg-yellow-200" textColor="text-black" />
+-->

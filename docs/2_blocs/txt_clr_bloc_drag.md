@@ -1,3 +1,15 @@
+---
+level: 2
+---
+
+<KeyboardNavigation 
+  :leftSlide="6"
+  :rightSlide="7"
+  :upSlide="2"
+  :downSlide="8"
+  :currentSlide="7"
+/>
+
 # Text Color Bloc Draggable
 
 Градиентный Контейнер с текстом, который можно перемещать.

@@ -11,12 +11,19 @@ layout: two-cols
 ```
 ::right::
 
-<Toc text-sm minDepth="1" maxDepth="1" />
+<Toc text-sm minDepth="1" maxDepth="2" />
+
+<!-- Перейти можно только стрелкой вниз к следующей колонке с элементами / возможно есть смысл добавлять порядковый номер слайда в имена файлов -->
+<KeyboardNavigation 
+  :downSlide="2"
+  :currentSlide="1"
+/>
 
 --- #2
 src: /1_layouts/two_cols.md
 hide: false
 layout: two-cols
+# level: 2
 ---
 
 --- #3
@@ -37,28 +44,29 @@ imageWidth: 100%
 ---
 
 --- #5
-src: /4_components/navigation.md
-hide: false
----
-
---- #6
 src: /2_blocs/txt_img_bloc.md
 hide: false
 ---
 
---- #7
+--- #6
 src: /2_blocs/txt_clr_bloc.md
 hide: false
 ---
 
---- #8
+--- #7
 src: /2_blocs/txt_clr_bloc_drag.md
+hide: false
+---
+
+--- #8
+src: /4_components/navigation.md
 hide: false
 ---
 
 --- #9
 src: /3_styles/custom.md
 hide: false
+layout: two-cols
 ---
 
 --- #10
