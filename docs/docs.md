@@ -7,7 +7,7 @@ layout: two-cols
 <h1>Содержание документации</h1>
 
 ```html
-<Toc minDepth="1" maxDepth="1" />
+<Toc minDepth="1" maxDepth="2" />
 ```
 ::right::
 
@@ -15,6 +15,9 @@ layout: two-cols
 
 <!-- Перейти можно только стрелкой вниз к следующей колонке с элементами / возможно есть смысл добавлять порядковый номер слайда в имена файлов -->
 <KeyboardNavigation 
+  :leftSlide="1"
+  :rightSlide="1"
+  :upSlide="1"
   :downSlide="2"
   :currentSlide="1"
 />
