@@ -96,6 +96,7 @@ npm run intro
     position="left_bottom"
 />
 ```
+*left_top : left_bottom : right_top : right_bottom<br>*
 
 3. Плавающая кнопка навигации
 ```html
@@ -124,7 +125,7 @@ npm run intro
     imageFit="fitWidth"
 />
 ```
-* imageFit ["contain", "fitWidth", "fitHeight", "fitAll"]
+*imageFit ["contain", "fitWidth", "fitHeight", "fitAll"]*
 
 2. Цветной Контейнер с градиентом без фоновой картинки
 ```html
@@ -140,3 +141,29 @@ npm run intro
     contentSize="16px"
 />
 ```
+<!-- gradient
+- from-pink-500 to-orange-500
+- from-green-400 to-blue-500
+- from-indigo-500 via-purple-500 to-pink-500
+
+если нужен просто черный или белый контейнер
+- from-white to-white"
+- from-black to-black" -->
+
+3. Градиентный Контейнер с текстом, который можно перемещать.
+```html
+<TxtColorBlocDrag 
+  title="Gradient Purple"
+  titleColor="text-yellow"
+  content="This is a draggable container with brown text color. Try moving it around!"
+  contentColor="#ffffff"
+  gradient="bg-gradient-to-r from-blue to-orange-500"
+  minWidth="250px"
+  minHeight="150px"
+  initialX="100" 
+  initialY="200"
+  textAlignment="text-left"
+  padding="p-4"
+/>
+```
+*(text-left, text-center, text-justify)*
