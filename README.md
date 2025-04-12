@@ -96,7 +96,8 @@ npm run intro
     position="left_bottom"
 />
 ```
-*left_top : left_bottom : right_top : right_bottom<br>*
+примеры 
+left_top : left_bottom : right_top : right_bottom<br>*
 
 3. Плавающая кнопка навигации
 ```html
@@ -125,7 +126,8 @@ npm run intro
     imageFit="fitWidth"
 />
 ```
-*imageFit ["contain", "fitWidth", "fitHeight", "fitAll"]*
+imageFit ["contain", "fitWidth", "fitHeight", "fitAll"]
+_SliDev по умолчанию ищет файлы/картинки в корневой папке /public_
 
 2. Цветной Контейнер с градиентом без фоновой картинки
 ```html
@@ -141,14 +143,14 @@ npm run intro
     contentSize="16px"
 />
 ```
-<!-- gradient
+примеры нгаписания градиентов
 - from-pink-500 to-orange-500
 - from-green-400 to-blue-500
 - from-indigo-500 via-purple-500 to-pink-500
 
 если нужен просто черный или белый контейнер
 - from-white to-white"
-- from-black to-black" -->
+- from-black to-black"
 
 3. Градиентный Контейнер с текстом, который можно перемещать.
 ```html
