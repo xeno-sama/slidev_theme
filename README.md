@@ -69,3 +69,57 @@ npm run docs
 npm run intro
 ```
 
+# Навигация
+
+1. Клавиатурные стрелки вверх/вниз переходят по уровням
+стрелки вправо/влево ходят по вложенным маршрутам
+<KeyboardNavigation 
+  :leftSlide="1"
+  :rightSlide="1"
+  :upSlide="1"
+  :downSlide="2"
+  :currentSlide="1"
+/>
+
+2. Фиксированная кнопка навигации. Автоматически распологается по углам экрана
+<NavButtonFixed 
+    :slideNumber="1"
+    buttonText="Left"
+    buttonColor="bg-purple-500"
+    width="60px"
+    height="30px"
+    textSize="16px"
+    arrowSize="10px"
+    position="left_bottom"
+/>
+
+3. 
+
+## Блоки с изображением
+
+1. Текстовый блок с фоновой картинкой
+<ImageWithText 
+    imagePath="/images/fon.jpg"
+    textColor="text-blue"
+    title="Заголовок здесь"
+    contentColor="#000000"
+    content="Текст содержания"
+    width="700px"
+    height="300px"
+    imageFit="fitWidth"
+/>
+
+* imageFit ["contain", "fitWidth", "fitHeight", "fitAll"]
+
+2. Цветной Контейнер с градиентом без фоновой картинки
+<TxtColorBloc 
+    gradient="bg-gradient-to-r from-red to-orange-500"
+    titleColor="text-blue"
+    title="Заголовок"
+    contentColor="#000000"
+    content="Текст содержания"
+    width="500px"
+    height="300px"
+    titleSize="24px"
+    contentSize="16px"
+/>
