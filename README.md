@@ -84,7 +84,7 @@ npm run intro
 ```
 
 2. Фиксированная кнопка навигации. Автоматически распологается по углам экрана
-```
+```html
 <NavButtonFixed 
     :slideNumber="1"
     buttonText="Left"
@@ -98,10 +98,21 @@ npm run intro
 ```
 
 3. Плавающая кнопка навигации
+```html
+<NavButtonDrag 
+    :slideNumber="3"
+    buttonText="To Slide 3"
+    direction="left"
+    buttonColor="bg-blue-500"
+    :initialX="50"
+    :initialY="100"
+/>
+```
 
 ## Блоки с изображением
 
 1. Текстовый блок с фоновой картинкой
+```html
 <ImageWithText 
     imagePath="/images/fon.jpg"
     textColor="text-blue"
@@ -112,10 +123,11 @@ npm run intro
     height="300px"
     imageFit="fitWidth"
 />
-
+```
 * imageFit ["contain", "fitWidth", "fitHeight", "fitAll"]
 
 2. Цветной Контейнер с градиентом без фоновой картинки
+```html
 <TxtColorBloc 
     gradient="bg-gradient-to-r from-red to-orange-500"
     titleColor="text-blue"
@@ -127,3 +139,4 @@ npm run intro
     titleSize="24px"
     contentSize="16px"
 />
+```
