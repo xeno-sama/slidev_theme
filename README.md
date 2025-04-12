@@ -84,7 +84,7 @@ npm run intro
 '''
 
 2. Фиксированная кнопка навигации. Автоматически распологается по углам экрана
-'''<NavButtonFixed 
+"<NavButtonFixed 
     :slideNumber="1"
     buttonText="Left"
     buttonColor="bg-purple-500"
@@ -93,9 +93,9 @@ npm run intro
     textSize="16px"
     arrowSize="10px"
     position="left_bottom"
-/>'''
+/>"
 
-3. 
+3. Плавающая кнопка навигации
 
 ## Блоки с изображением
 
