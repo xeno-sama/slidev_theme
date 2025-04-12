@@ -28,7 +28,7 @@ npm init slidev@latest
     "dev": "slidev --open",
     "dev:chrome": "BROWSER='google chrome' slidev --open",
     "intro": "BROWSER='google chrome' slidev docs/intro.md --open", 
-    "docs": "slidev docs/docs.md --open"
+    "docs": "slidev docs/docs.md --open",
     "clean": "rm -rf node_modules/.vite && npm cache clean --force && rm -rf node_modules && rm -rf package-lock.json"
   },
   "dependencies": {
@@ -47,14 +47,14 @@ npm init slidev@latest
 
 2) запустите в консоли
 ```bash
-cp -r node_modules/slidev-theme-custom/docs/ docs
+npm install 
 ```
-это скопирует документацию из кастомной темы в ваш проект в папку docs
 
 3) запустите в консоли
 ```bash
-npm install 
+cp -r node_modules/slidev-theme-custom/docs/ docs
 ```
+это скопирует документацию из кастомной темы в ваш проект в папку docs
 чтобы доустановить недостаюшие пакеты для кастомной темы 
 
 # Документация по кастомным компонентам
@@ -68,3 +68,4 @@ npm run docs
 ```bash
 npm run intro
 ```
+
